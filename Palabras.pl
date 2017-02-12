@@ -1,4 +1,5 @@
 %Israel Ramírez
+
 %Seminario de sistemas basados en conocimiento D01
 
 bstinsert(vacio,X, nodo(X,vacio,vacio)). %nodo(Valor,Izq,Der).
