@@ -18,7 +18,7 @@ insertaArbol(Arbol,[Cabeza|Cola]):-
 
 buscar:-  %Correr todo
   abecedario(Letras),
-  generarPalabras(Letras,Palabras,10),
+  generarPalabras(Letras,Palabras,1000),
   write('Palabras generadas: \n'),
   writePalabras(Palabras),
   write('\nIngrese una palabra: '),
